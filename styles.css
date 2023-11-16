@@ -1,0 +1,307 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #nic_threeCards_homePage__container {
+        background-color: burlywood;
+    }
+    
+    #nic_threeCards_homePage {
+        display: flex;
+        flex-flow: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-bottom: 60px;  
+        padding-top: 0;
+    }
+
+    #nic_threeCards_homePage__articleOne {
+        width: 89%;
+        max-width: 600px;
+        margin: 20px auto;
+        position: relative;
+    }
+    
+    #nic_threeCards_homePage__articleTwo, #nic_threeCards_homePage__articleThree {
+        width: 89%;
+        max-width: 600px;
+        margin: 120px auto;
+        position: relative;
+    }
+    
+    #nic_threeCards_homePage__articleOne img, #nic_threeCards_homePage__articleTwo img, #nic_threeCards_homePage__articleThree img {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__articleOne #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree #nic_threeCards_homePage__article_divThree {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover img, #nic_threeCards_homePage__articleTwo:hover img, #nic_threeCards_homePage__articleThree:hover img {
+        transform: scale(1.1);
+        /* transition: .5s ease-in; */
+        transform-origin: 50% 50%;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo:hover #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree:hover #nic_threeCards_homePage__article_divThree {
+        bottom: calc(100% - 400px);
+        transform-origin: 50% 50%;
+        /* transition: ease-in-out; */
+    }
+    
+    #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__article_divThree {
+        position: absolute;
+        bottom: -150px;
+        width: 95%;
+        left: 10px;
+        background-color: white;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .nic_threeCards_homePage__imgDivs {
+        overflow: hidden;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {  
+    #nic_threeCards_homePage__container {
+        background-color: red;
+    }
+    
+    #nic_threeCards_homePage {
+        display: flex;
+        flex-flow: column;
+        margin-top: 40px;
+        margin-bottom: 40px;    
+    }
+    
+    #nic_threeCards_homePage__articleOne, #nic_threeCards_homePage__articleTwo, #nic_threeCards_homePage__articleThree {
+        width: 89%;
+        max-width: 600px;
+        margin: 120px auto;
+        position: relative;
+    }
+    
+    #nic_threeCards_homePage__articleOne img, #nic_threeCards_homePage__articleTwo img, #nic_threeCards_homePage__articleThree img {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__articleOne #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree #nic_threeCards_homePage__article_divThree {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover img, #nic_threeCards_homePage__articleTwo:hover img, #nic_threeCards_homePage__articleThree:hover img {
+        transform: scale(1.1);
+        /* transition: .5s ease-in; */
+        transform-origin: 50% 50%;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo:hover #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree:hover #nic_threeCards_homePage__article_divThree {
+        bottom: calc(100% - 400px);
+        transform-origin: 50% 50%;
+        /* transition: ease-in-out; */
+    }
+    
+    #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__article_divThree {
+        position: absolute;
+        bottom: -150px;
+        width: 95%;
+        left: 10px;
+        background-color: white;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .nic_threeCards_homePage__imgDivs {
+        overflow: hidden;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #nic_threeCards_homePage__container {
+        background-color: green;
+    }
+    
+    #nic_threeCards_homePage {
+        display: flex;
+        flex-flow: column;
+        margin-top: 40px;
+        margin-bottom: 40px;    
+    }
+    
+    #nic_threeCards_homePage__articleOne, #nic_threeCards_homePage__articleTwo, #nic_threeCards_homePage__articleThree {
+        width: 89%;
+        max-width: 600px;
+        margin: 120px auto;
+        position: relative;
+    }
+    
+    #nic_threeCards_homePage__articleOne img, #nic_threeCards_homePage__articleTwo img, #nic_threeCards_homePage__articleThree img {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__articleOne #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree #nic_threeCards_homePage__article_divThree {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover img, #nic_threeCards_homePage__articleTwo:hover img, #nic_threeCards_homePage__articleThree:hover img {
+        transform: scale(1.1);
+        /* transition: .5s ease-in; */
+        transform-origin: 50% 50%;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo:hover #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree:hover #nic_threeCards_homePage__article_divThree {
+        bottom: calc(100% - 450px);
+        transform-origin: 50% 50%;
+        /* transition: ease-in-out; */
+    }
+    
+    #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__article_divThree {
+        position: absolute;
+        bottom: -130px;
+        width: 95%;
+        left: 15px;
+        background-color: white;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .nic_threeCards_homePage__imgDivs {
+        overflow: hidden;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #nic_threeCards_homePage__container {
+        background-color: purple;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    #nic_threeCards_homePage {
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+        width: 600px;
+    }
+    
+    #nic_threeCards_homePage__articleOne, #nic_threeCards_homePage__articleTwo, #nic_threeCards_homePage__articleThree {
+        position: relative;
+        margin-bottom: 300px;
+    }
+    
+    #nic_threeCards_homePage__articleOne img, #nic_threeCards_homePage__articleTwo img, #nic_threeCards_homePage__articleThree img {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+     #nic_threeCards_homePage__article_divOne,  #nic_threeCards_homePage__article_divTwo,  #nic_threeCards_homePage__article_divThree {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        position: absolute;
+        bottom: -220px;
+        background-color: white;
+        width: 96%;
+        left: 10px;
+        
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover img, #nic_threeCards_homePage__articleTwo:hover img, #nic_threeCards_homePage__articleThree:hover img {
+        transform: scale(1.1);
+        /* transition: .5s ease-in; */
+        transform-origin: 50% 50%;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo:hover #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree:hover #nic_threeCards_homePage__article_divThree {
+        
+    }
+    
+    #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__article_divThree {
+        
+    }
+    
+    .nic_threeCards_homePage__imgDivs {
+        overflow: hidden;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #nic_threeCards_homePage__container {
+        background-color: gray;
+        height: 650px;
+    }
+    
+    #nic_threeCards_homePage {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+    
+    #nic_threeCards_homePage__articleOne, #nic_threeCards_homePage__articleTwo, #nic_threeCards_homePage__articleThree {
+        width: 31%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        position: relative;
+    }
+    
+    #nic_threeCards_homePage__articleOne img, #nic_threeCards_homePage__articleTwo img, #nic_threeCards_homePage__articleThree img {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__article_divThree {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: white;
+        width: 95%;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        position: absolute;
+        bottom: -240px;
+        left: 15px;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover img, #nic_threeCards_homePage__articleTwo:hover img, #nic_threeCards_homePage__articleThree:hover img {
+        transform: scale(1.1);
+        /* transition: .5s ease-in; */
+        transform-origin: 50% 50%;
+    }
+    
+    #nic_threeCards_homePage__articleOne:hover #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__articleTwo:hover #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__articleThree:hover #nic_threeCards_homePage__article_divThree {
+        bottom: calc(100% - 575px);
+        transform-origin: 50% 50%;
+        /* transition: ease-in-out; */
+    }
+    
+    #nic_threeCards_homePage__article_divOne, #nic_threeCards_homePage__article_divTwo, #nic_threeCards_homePage__article_divThree {
+    }
+    
+    .nic_threeCards_homePage__imgDivs {
+        overflow: hidden;
+    }
+}   
